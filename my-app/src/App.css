@@ -1,0 +1,47 @@
+:root {
+  --bg-color: #e6e2d0;
+  --text-color: #000000;
+  --accent-color: #6c8e6d;
+  --surface-color: #e6e2d0;
+}
+
+[data-theme='dark'] {
+  --bg-color: #00162c; /* dark blue */
+  --text-color: #d0e6d0; /* soft greenish white */
+  --accent-color: #002a23; /* dark green */
+  --surface-color: #10263b;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+.nav-right a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-color);
+}

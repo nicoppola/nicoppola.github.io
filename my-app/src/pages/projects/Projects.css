@@ -1,0 +1,33 @@
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* Center horizontally */
+  justify-content: flex-start; /* Start near the top */
+  text-align: center;
+  color: var(--text-color);
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.projects-page h1 {
+  font-size: 3rem;
+  margin-bottom: 0rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* align cards to the left */
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1200px; /* optional: keeps layout neat on large screens */
+}
