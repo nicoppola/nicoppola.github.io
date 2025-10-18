@@ -19,12 +19,12 @@ export default function Projects() {
           subtitle="A kotlin/compose multiplatform project that provides a quick reference to prayers and Catholic info about each day."
         />
         <ProjectCard
-          image={happyPlantPic}
+          image={signagePic}
           title="Digital Signage"
           subtitle="A side by side digital signage solution with a photo/signage management website.  Runs on a raspberry pi zero 2w."
         />
         <ProjectCard
-          image={signagePic}
+          image={happyPlantPic}
           title="Happy Plant"
           subtitle="Temperature and humidity monitor that aggregates data in a time series database."
         />
