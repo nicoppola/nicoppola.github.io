@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.66bade0f.css",
-    "main.js": "/static/js/main.ad34f2a6.js",
+    "main.js": "/static/js/main.2d582d6a.js",
     "static/js/453.117b0875.chunk.js": "/static/js/453.117b0875.chunk.js",
     "static/media/happyPlant.png": "/static/media/happyPlant.75aa5e25ace329b11c42.png",
     "static/media/signage.png": "/static/media/signage.184e39695e7d84c408d5.png",
     "static/media/catholic_dash.png": "/static/media/catholic_dash.fcf0454f7ad4ab416884.png",
     "index.html": "/index.html",
     "main.66bade0f.css.map": "/static/css/main.66bade0f.css.map",
-    "main.ad34f2a6.js.map": "/static/js/main.ad34f2a6.js.map",
+    "main.2d582d6a.js.map": "/static/js/main.2d582d6a.js.map",
     "453.117b0875.chunk.js.map": "/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66bade0f.css",
-    "static/js/main.ad34f2a6.js"
+    "static/js/main.2d582d6a.js"
   ]
 }
