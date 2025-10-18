@@ -16,6 +16,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
+          {/* Catch-all route */}
+          <Route path="*" element={<Navigate to="/projects" />} />
         </Routes>
       </main>
     </Router>
